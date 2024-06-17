@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="event.js"></script>
+    <style>
+        #wrap{
+            width: 500px;
+            margin: auto;
+        }
+        img{
+            width: 100%;
+        }
+        .over{
+            position: absolute; 
+            left: 1opx;
+            bottom: 10px;
+        }
+        .relative{
+            position: relative;
+        }
+        #desc{
+            display: none;
+        }
+    </style>
+    
+</head>
+<body>
+    <div id ="wrap">
+        <div>
+            <img src="https://cdn.pixabay.com/photo/2014/12/07/09/30/milky-way-559641_640.jpg" alt="이미지">
+            <button class="over" id="open"
+            onclick="openDesc()">상세 설명보기</button>
+        </div>
+        <div id="desc" class="datial">
+            <p>(서울=연합뉴스) 최윤선 기자 = 서울교통공사는 13일 지하철에서 갈취 등 불법행위나 이상행동자를 발견할 경우 공식 앱인 '또타지하철'의 '긴급상황' 기능을 이용해 신속히 신고해달라고 당부했다.
+
+                이는 최근 지하철 3호선 열차 안에서 치마 입은 남성이 여성 승객들을 상대로 위협하고 돈을 뜯어내는 사건이 발생한 데 따른 것이다.
+                
+                공사에 따르면 이 남성은 지난 11일 저녁 시간대 3호선 열차 내에서 큰 소리로 구걸하는 한편 몇몇 승객을 대상으로 위협적인 말을 하며 돈을 갈취했다.
+                
+                이와 관련해 공사 고객센터를 통해 민원 2건이 접수됐고, 인근 역의 직원들이 즉시 출동해 열차를 수색했지만 해당 남성을 발견하지 못했다고 공사는 설명했다.
+                
+                온라인 커뮤니티에서는 지하철 1호선과 4호선, 5호선에서도 문제의 남성을 봤다는 목격담도 나왔다.
+                
+                이런 상황을 목격한 경우 또타지하철의 긴급상황 기능을 이용해 신고할 수 있다. 이 앱은 비컨(무선 인식 장치)을 이용해 신고자의 위치를 자동으로 파악할 수 있다.
+                </p>
+            <button id="close"
+            onclick="closeDesc()">상세 설명닫기</button>
+        </div>
+    </div>
+
+</body>
+</html>

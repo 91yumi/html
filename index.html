@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="이 웹사이트는 학습용입니다." />
+    <title>학습용</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+    <style>
+        html,
+        body {
+            background-color: pink;            
+        }
+    </style>
+</head>
+<body>
+    <h1>제목 1~6까지 h1 ~ h6</h1>
+    <a href="http://naver.com">네이버 바로가기</a><br>
+    <a href="http://dxcom.kr"><img src="https://dxcom.kr/data/menu/LOGO_ccrK5tlURYONfdhovuoY1708563202.png"></a><br>
+    <p>단락(문단)을 구성할 때 사용하는 문단 태그</p>
+    <div>구역을 나누는 태그는 div </div>
+    <ul>
+        <li>목록1</li>
+        <li>목록2</li>
+        <li>목록3</li>
+        <li>목록4</li>
+        <li>목록5</li>
+    </ul>
+    <hr />
+    <h1>폼태그 알아보기</h1>
+    <ol>
+        <li>입력을 받을 땐 : input 태그 사용 (text, email, tel, password, search, url, file) <br>
+        <input type="text" 
+        placeholder="여기에 한 줄의 텍스트를 입력할 수 있습니다."
+        size="60" 
+        /> <br />
+        input은 type이 여러 가지가 있습니다.</li>
+
+        <li>
+            여러 줄의 텍스트를 입력하는 태그는 textarea 태그 입니다. <br>
+            <textarea rows="15" cols="60"></textarea>
+        </li>
+        <li>
+            선택 항목을 표시하는 select/option 태그 <br>
+            <select>
+                <option value="">선택항목1</option>
+                <option value="">선택항목2</option>
+                <option value="">선택항목3</option>
+                <option value="">선택항목4</option>
+                <option value="">선택항목5</option>
+            </select>
+        </li>
+        <li>
+            취미를 선택하세요<br>
+            여러 항목을 체크할 수 있는 checkbox 타입 <br>
+            <label><input type="checkbox" /> 독서</label>
+            <label><input type="checkbox" /> 책 읽기</label>
+            <label><input type="checkbox" /> 피아노 연주</label>
+            <label><input type="checkbox" /> 영화보기</label>
+            <label><input type="checkbox" /> 멍 때리기</label>
+        </li>
+        <li>
+            좋아하는 메뉴를 선택하세요<br>
+            같은 name 중에 하나의 항목만 체크할 수 있는 radio 태그<br>
+            <label><input type="radio" name="s">김밥</label>
+            <label><input type="radio" name="s">냉면</label>
+            <label><input type="radio" name="s">비빔면</label>
+            <label><input type="radio" name="s">라면</label>
+            <label><input type="radio" name="s">피자</label>
+            <label><input type="radio" name="s">스파게티</label>
+        </li>
+        <li>
+            input태그의 여러 가지 모양들(type 속성 참고:161쪽)<br>
+            <input type="date" /><br />
+            <input type="range" min="0" max="100" width="100%" step="20"/>
+        </li>
+        <li>
+            버튼 모양을 나타내는 태그와 속성<br>
+            <input type="submit" value="전송하기" /><br />
+            <button>전송하기</button>
+        </li>
+    </ol>
+
+</body>
+</html>
